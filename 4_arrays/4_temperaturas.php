@@ -12,7 +12,7 @@ Dado un array con la temperatura media de  cada día de la semana, sacar:
 $temperaturas = [12, 15, 13, 12, 16, 11, 13,14,-1,10,29,-10];
 
 function minimo($array){
-    $minimo=0;
+    $minimo=100;
     for($i = 0; $i < (count($array)); $i++){
         if($array[$i]<$minimo){
             $minimo=$array[$i];
