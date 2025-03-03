@@ -40,7 +40,7 @@ function media($array){
     for ( $i = 0; $i < (count($array)); $i++){
         $media+=$array[$i];
     }
-    return floor($media/count($array));
+    return round($media/count($array),2);
 }
 
 echo "<hr>";
